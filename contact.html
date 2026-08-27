@@ -12,7 +12,7 @@
     <!-- my style -->
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body class="bg-light pt-5">
+  <body class="bg-light">
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg bg-light border-bottom small fixed-top">
       <div class="container">
@@ -86,158 +86,175 @@
         </div>
       </div>
     </nav>
-    <!-- FAQ Header -->
-    <header class="py-5 border-bottom">
+    <!-- Header contact -->
+    <header class="mt-5 py-5">
       <div class="container">
-        <div class="row align-items-center">
-          <!-- khối bên trái -->
+        <div class="row d-flex justify-content-center">
           <div class="col-md-6">
-            <div class="breadcrumb-holder">
-              <nav style="--bs-breadcrumb-divider: &quot;>&quot;" aria-label="breadcrumb">
-                <ol class="breadcrumb border d-inline-flex px-3 py-1 rounded-pill align-items-center">
-                  <li class="breadcrumb-item"><a class="text-decoration-none small" href="./index.html">Home</a></li>
-                  <li class="breadcrumb-item active small" aria-current="page">FAQ</li>
-                </ol>
-              </nav>
+            <div class="text-center">
+              <h1 class="fs-3 fw-light">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia dignissimos aut</h1>
+              <h2 class="fs-6 fw-normal text-secondary">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum impedit blanditiis dolore modi doloremque adipisci
+                voluptas
+              </h2>
             </div>
-            <div class="header-content">
-              <h1 class="fw-normal fs-3">Lorem ipsum dolor sit amet consectetur.</h1>
-              <p class="fs-6 small fw-light text-secondary">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quia natus amet! Amet reiciendis alias perspiciatis vel,
-                nostrum officia iste illum fugiat distinctio tenetur molestiae incidunt repellat quisquam ratione vero!
-              </p>
-              <div class="search w-75">
-                <form class="d-flex" role="search">
-                  <div class="input-group">
-                    <input class="form-control form-control-sm" type="search" placeholder="Search for.." aria-label="Search" />
-                    <button class="btn btn-success btn-sm" type="submit">
-                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" width="16px" height="16px">
-                        <!--!Font Awesome Free v7.3.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.-->
-                        <path
-                          d="M480 272C480 317.9 465.1 360.3 440 394.7L566.6 521.4C579.1 533.9 579.1 554.2 566.6 566.7C554.1 579.2 533.8 579.2 521.3 566.7L394.7 440C360.3 465.1 317.9 480 272 480C157.1 480 64 386.9 64 272C64 157.1 157.1 64 272 64C386.9 64 480 157.1 480 272zM272 416C351.5 416 416 351.5 416 272C416 192.5 351.5 128 272 128C192.5 128 128 192.5 128 272C128 351.5 192.5 416 272 416z" />
-                      </svg>
-                    </button>
-                  </div>
-                </form>
-              </div>
-            </div>
-          </div>
-          <!-- khối bên phải -->
-          <div class="col-md-6 mt-2 mt-md-0">
-            <div><img src="./img/main-header.jpg" class="img-fluid" alt="" /></div>
           </div>
         </div>
       </div>
     </header>
-    <!-- FAQ List -->
-    <section class="faq-list py-5">
-      <div class="container">
+    <!-- contact body -->
+    <section>
+      <div class="container pb-5 mb-5">
         <div class="row">
-          <!-- list question -->
-          <div class="col-md-8">
-            <!-- item1 -->
-            <details class="card text-bg-light small mb-3">
-              <summary class="card-header">Lorem ipsum dolor sit amet consectetur adipisicing elit.</summary>
-              <div class="card-body">
-                <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil sequi earum, odit, placeat, esse alias sunt quisquam
-                  repudiandae molestias reprehenderit corporis tenetur in laboriosam voluptatum debitis aliquid ab dolorem quae!
+          <!-- item1 -->
+          <div class="col-md-4 mb-3 mb-md-0">
+            <div class="card">
+              <div class="card-header text-center">F.A.Q</div>
+              <div class="card-body py-5 text-center">
+                <p class="small m-0">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias porro dolorum quibusdam quisquam consequatur
                 </p>
               </div>
-            </details>
-            <!-- item2 -->
-            <details class="card text-bg-light small mb-3">
-              <summary class="card-header">Lorem ipsum dolor sit amet consectetur adipisicing elit.</summary>
-              <div class="card-body">
-                <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil sequi earum, odit, placeat, esse alias sunt quisquam
-                  repudiandae molestias reprehenderit corporis tenetur in laboriosam voluptatum debitis aliquid ab dolorem quae!
-                </p>
+              <div class="card-footer d-flex justify-content-center">
+                <a href="./faq.html" class="btn btn-success btn-sm d-inline-flex align-items-center">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-question-diamond-fill me-2"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="M9.05.435c-.58-.58-1.52-.58-2.1 0L.436 6.95c-.58.58-.58 1.519 0 2.098l6.516 6.516c.58.58 1.519.58 2.098 0l6.516-6.516c.58-.58.58-1.519 0-2.098L9.05.435zM5.495 6.033a.237.237 0 0 1-.24-.247C5.35 4.091 6.737 3.5 8.005 3.5c1.396 0 2.672.73 2.672 2.24 0 1.08-.635 1.594-1.244 2.057-.737.559-1.01.768-1.01 1.486v.105a.25.25 0 0 1-.25.25h-.81a.25.25 0 0 1-.25-.246l-.004-.217c-.038-.927.495-1.498 1.168-1.987.59-.444.965-.736.965-1.371 0-.825-.628-1.168-1.314-1.168-.803 0-1.253.478-1.342 1.134-.018.137-.128.25-.266.25h-.825zm2.325 6.443c-.584 0-1.009-.394-1.009-.927 0-.552.425-.94 1.01-.94.609 0 1.028.388 1.028.94 0 .533-.42.927-1.029.927z"></path>
+                  </svg>
+                  See FAQ's
+                </a>
               </div>
-            </details>
-            <!-- item3 -->
-            <details class="card text-bg-light small mb-3">
-              <summary class="card-header">Lorem ipsum dolor sit amet consectetur adipisicing elit.</summary>
-              <div class="card-body">
-                <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil sequi earum, odit, placeat, esse alias sunt quisquam
-                  repudiandae molestias reprehenderit corporis tenetur in laboriosam voluptatum debitis aliquid ab dolorem quae!
-                </p>
-              </div>
-            </details>
-            <!-- item4 -->
-            <details class="card text-bg-light small mb-3">
-              <summary class="card-header">Lorem ipsum dolor sit amet consectetur adipisicing elit.</summary>
-              <div class="card-body">
-                <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil sequi earum, odit, placeat, esse alias sunt quisquam
-                  repudiandae molestias reprehenderit corporis tenetur in laboriosam voluptatum debitis aliquid ab dolorem quae!
-                </p>
-              </div>
-            </details>
-            <!-- item5 -->
-            <details class="card text-bg-light small mb-3">
-              <summary class="card-header">Lorem ipsum dolor sit amet consectetur adipisicing elit.</summary>
-              <div class="card-body">
-                <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil sequi earum, odit, placeat, esse alias sunt quisquam
-                  repudiandae molestias reprehenderit corporis tenetur in laboriosam voluptatum debitis aliquid ab dolorem quae!
-                </p>
-              </div>
-            </details>
+            </div>
           </div>
-          <!-- post question -->
+          <!-- item2 -->
+          <div class="col-md-4 mb-3 mb-md-0">
+            <div class="card">
+              <div class="card-header text-center">Regarding the course</div>
+              <div class="card-body py-5 text-center">
+                <p class="small m-0">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias porro dolorum quibusdam quisquam consequatur
+                </p>
+              </div>
+              <div class="card-footer d-flex justify-content-center">
+                <button
+                  class="btn btn-success btn-sm d-inline-flex align-items-center"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-info-circle-fill me-2"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"></path>
+                  </svg>
+                  Get Help
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- item3 -->
           <div class="col-md-4">
             <div class="card">
-              <div class="card-header text-bg-primary">Post your Questions</div>
-              <div class="card-body">
-                <form action="">
-                  <div class="row">
-                    <div class="col-md-6">
-                      <div class="mb-2">
-                        <input placeholder="Name" type="text" class="form-control form-control-sm" />
-                      </div>
-                    </div>
-                    <div class="col-md-6">
-                      <div class="mb-2">
-                        <input placeholder="Email" type="email" class="form-control form-control-sm" />
-                      </div>
-                    </div>
-                    <div class="col-md-12">
-                      <div class="mb-2">
-                        <input placeholder="Your Question Title" type="text" class="form-control form-control-sm" />
-                      </div>
-                    </div>
-                    <div class="col-md-12">
-                      <div class="mb-2">
-                        <textarea placeholder="Question in detail" rows="5" class="form-control form-control-sm" name="" id=""></textarea>
-                      </div>
-                    </div>
-                    <div class="col-md-12">
-                      <div class="">
-                        <button class="btn btn-success btn-sm d-inline-flex w-100 align-items-center justify-content-center" type="submit">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="16"
-                            height="16"
-                            fill="currentColor"
-                            class="bi bi-question-circle-fill me-2"
-                            viewBox="0 0 16 16">
-                            <path
-                              d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z"></path>
-                          </svg>
-                          Post Question
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </form>
+              <div class="card-header text-center">Freelance Project</div>
+              <div class="card-body py-5 text-center">
+                <p class="small m-0">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias porro dolorum quibusdam quisquam consequatur
+                </p>
+              </div>
+              <div class="card-footer d-flex justify-content-center">
+                <a href="#!" class="btn btn-success btn-sm d-inline-flex align-items-center">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-send-check-fill me-2"
+                    viewBox="0 0 16 16">
+                    <path
+                      d="M15.964.686a.5.5 0 0 0-.65-.65L.767 5.855H.766l-.452.18a.5.5 0 0 0-.082.887l.41.26.001.002 4.995 3.178 1.59 2.498C8 14 8 13 8 12.5a4.5 4.5 0 0 1 5.026-4.47L15.964.686Zm-1.833 1.89L6.637 10.07l-.215-.338a.5.5 0 0 0-.154-.154l-.338-.215 7.494-7.494 1.178-.471-.47 1.178Z"></path>
+                    <path
+                      d="M16 12.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Zm-1.993-1.679a.5.5 0 0 0-.686.172l-1.17 1.95-.547-.547a.5.5 0 0 0-.708.708l.774.773a.75.75 0 0 0 1.174-.144l1.335-2.226a.5.5 0 0 0-.172-.686Z"></path>
+                  </svg>
+                  Send Request
+                </a>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header text-bg-dark">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Get Help</h1>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="card-body">
+              <form action="">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="mb-2">
+                      <input placeholder="First Name" type="text" class="form-control form-control-sm" />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="mb-2">
+                      <input placeholder="Last Name" type="text" class="form-control form-control-sm" />
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="mb-2">
+                      <input placeholder="Your Email" type="email" class="form-control form-control-sm" />
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="mb-2">
+                      <input placeholder="Subject" type="text" class="form-control form-control-sm" />
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="mb-2">
+                      <textarea placeholder="Message" rows="5" class="form-control form-control-sm" name="" id=""></textarea>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="">
+                      <button class="btn btn-success btn-sm d-inline-flex w-100 align-items-center justify-content-center" type="submit">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-envelope-check-fill me-2"
+                          viewBox="0 0 16 16">
+                          <path
+                            d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.026A2 2 0 0 0 2 14h6.256A4.493 4.493 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586l-1.239-.757ZM16 4.697v4.974A4.491 4.491 0 0 0 12.5 8a4.49 4.49 0 0 0-1.965.45l-.338-.207L16 4.697Z"></path>
+                          <path
+                            d="M16 12.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Zm-1.993-1.679a.5.5 0 0 0-.686.172l-1.17 1.95-.547-.547a.5.5 0 0 0-.708.708l.774.773a.75.75 0 0 0 1.174-.144l1.335-2.226a.5.5 0 0 0-.172-.686Z"></path>
+                        </svg>
+                        Subcribe
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- subcribe -->
     <section class="subcribe py-5">
       <div class="container">
